@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/osians/CSVLib/blob/master/test/movimentos_financeiros.csv",
+			"url": "https://raw.githubusercontent.com/osians/CSVLib/master/test/movimentos_financeiros.csv",
 			"enableServerCertificateValidation": false,
 			"authenticationType": "Anonymous"
 		}
