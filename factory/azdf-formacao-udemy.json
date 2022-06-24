@@ -1,0 +1,9 @@
+{
+	"name": "azdf-formacao-udemy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4ff1639-6b17-40a2-bf45-7da226a35250",
+		"tenantId": "dfe8d0e7-a3a4-45e0-9ce4-e67ca760b156"
+	}
+}
