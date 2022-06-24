@@ -1,0 +1,23 @@
+{
+	"name": "ds_movies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerMovies",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "FormacaoUdemy"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
