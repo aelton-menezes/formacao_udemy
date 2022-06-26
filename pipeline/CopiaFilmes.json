@@ -36,7 +36,7 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "Int32",
+									"type": "String",
 									"ordinal": 2
 								},
 								"sink": {
