@@ -41,7 +41,7 @@
 								},
 								"sink": {
 									"name": "Id_usuario",
-									"type": "Int32"
+									"type": "String"
 								}
 							},
 							{
@@ -51,7 +51,7 @@
 								},
 								"sink": {
 									"name": "Data_entrada",
-									"type": "DateTime"
+									"type": "String"
 								}
 							},
 							{
@@ -61,7 +61,7 @@
 								},
 								"sink": {
 									"name": "Valor",
-									"type": "Decimal"
+									"type": "String"
 								}
 							},
 							{
@@ -91,7 +91,7 @@
 								},
 								"sink": {
 									"name": "Id_categoria",
-									"type": "Int32"
+									"type": "String"
 								}
 							},
 							{
@@ -101,7 +101,7 @@
 								},
 								"sink": {
 									"name": "Estatus",
-									"type": "Boolean"
+									"type": "String"
 								}
 							}
 						]
