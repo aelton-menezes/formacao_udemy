@@ -36,8 +36,8 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 2
+									"name": "idusuario",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Id_usuario",
@@ -46,8 +46,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 3
+									"name": "data",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Data_entrada",
@@ -56,8 +56,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 4
+									"name": "valor",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Valor",
@@ -66,8 +66,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 5
+									"name": "liquidado",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Liquidado",
@@ -76,8 +76,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 6
+									"name": "descricao",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Descricao",
@@ -86,8 +86,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 7
+									"name": "idcategoria",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Id_categoria",
@@ -96,8 +96,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 8
+									"name": "status",
+									"type": "String"
 								},
 								"sink": {
 									"name": "Estatus",
