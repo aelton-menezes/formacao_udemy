@@ -18,22 +18,19 @@
 			},
 			{
 				"name": "Id_usuario",
-				"type": "int",
-				"precision": 10
+				"type": "varchar"
 			},
 			{
 				"name": "Data_entrada",
-				"type": "date"
+				"type": "varchar"
 			},
 			{
 				"name": "Valor",
-				"type": "decimal",
-				"precision": 18,
-				"scale": 0
+				"type": "varchar"
 			},
 			{
 				"name": "Liquidado",
-				"type": "char"
+				"type": "varchar"
 			},
 			{
 				"name": "Descricao",
@@ -41,12 +38,11 @@
 			},
 			{
 				"name": "Id_categoria",
-				"type": "int",
-				"precision": 10
+				"type": "varchar"
 			},
 			{
 				"name": "Estatus",
-				"type": "bit"
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
