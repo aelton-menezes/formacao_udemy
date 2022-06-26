@@ -1,0 +1,57 @@
+{
+	"name": "azds_financeiro_saida",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azdb_financeiro_saida",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "FormacaoUdemy"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id_movimento",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Id_usuario",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Data_entrada",
+				"type": "date"
+			},
+			{
+				"name": "Valor",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "Liquidado",
+				"type": "char"
+			},
+			{
+				"name": "Descricao",
+				"type": "varchar"
+			},
+			{
+				"name": "Id_categoria",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Estatus",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "FINANCEIRO_SAIDAS"
+		}
+	}
+}
