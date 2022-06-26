@@ -25,11 +25,97 @@
 							"type": "DelimitedTextReadSettings"
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"type": "Int32",
+									"ordinal": 2
+								},
+								"sink": {
+									"name": "Id_usuario",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"type": "DateTime",
+									"ordinal": 3
+								},
+								"sink": {
+									"name": "Data_entrada",
+									"type": "DateTime"
+								}
+							},
+							{
+								"source": {
+									"type": "Decimal",
+									"ordinal": 4
+								},
+								"sink": {
+									"name": "Valor",
+									"type": "Decimal"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 5
+								},
+								"sink": {
+									"name": "Liquidado",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 6
+								},
+								"sink": {
+									"name": "Descricao",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"type": "Int32",
+									"ordinal": 7
+								},
+								"sink": {
+									"name": "Id_categoria",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"type": "Byte",
+									"ordinal": 8
+								},
+								"sink": {
+									"name": "Estatus",
+									"type": "Boolean"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
 						"referenceName": "ds_movies",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "azds_financeiro_saida",
 						"type": "DatasetReference"
 					}
 				]
